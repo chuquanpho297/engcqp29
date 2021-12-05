@@ -1,58 +1,60 @@
 <!DOCTYPE html>
+
 <html>
     <head>
         <title>English</title>
+        <link rel="stylesheet" href="mystyle.css">
     </head>
-    <body>
-        <h1>This is an English website</h1>
-        <img src="images/eng.jpg" width="500"/>
-        <table width="500" cellpadding="5" cellspacing="10">
+    <body class="center">
+        <h1 class="sliver-bg" style="color: orange; font-family: monospace;">This is an English website </h1>
+        <img  width="450" height="250" src="images/eng.jpg" seamless>
+        <table width="500" cellpadding="5" cellspacing="10" class="center table" >
             <h3>The most common English idioms</h3>
-        <thead>
-            <tr>
-                <th colspan="1" ><b>Idiom</b></th>
-                <th colspan="1" ><b>Meaning</b></th>
-                <th colspan="1" ><b>Usage</b></th>
-            </tr>
-        </thead>
-        
-        <tbody>
-            <tr>
-                <td colspan="1">A blessing in disguise</td>
-                <td colspan="1">A good thing that seemed bad at frist</td>
-                <td colspan="1" rowspan="2">As part of a sentence</td>
-            </tr>
-            <tr>
-                <td colspan="1">A dime a dozen</td>
-                <td colspan="1">Something common</td>
-                <!-- <td colspan="2">As part of a sentence</td> -->
-            </tr>
-            <tr>
-                <td>Better late than never</td> 
-                <td>Better to arrive late than not to come at all</td>
-                <td>by itself</td>
-            </tr>
-            <tr>
-                <td>Bite the bullet</td>
-                <td>To get sth over with because it is inevitable</td>
-                <td >As part of a sentence</td>
-            </tr>
-            <tr></tr>
-        </tbody>
-        
-        <tfoot>
-                <td colspan="1">Beat around the bush</td>
-                <td>Avoid saying what you mean, usually because it is uncomfortable</td>
-                <td colspan="1">As part of a sentence</td>
-        </tfoot>
+            <thead>
+                <tr>
+                    <th colspan="1" ><b>Idiom</b></th>
+                    <th colspan="1" ><b>Meaning</b></th>
+                    <th colspan="1" ><b>Usage</b></th>
+                </tr>
+            </thead>
+            
+            <tbody>
+                <tr>
+                    <td colspan="1">A blessing in disguise</td>
+                    <td colspan="1">A good thing that seemed bad at frist</td>
+                    <td colspan="1" rowspan="2">As part of a sentence</td>
+                </tr>
+                <tr>
+                    <td colspan="1">A dime a dozen</td>
+                    <td colspan="1">Something common</td>
+                    <!-- <td colspan="2">As part of a sentence</td> -->
+                </tr>
+                <tr>
+                    <td>Better late than never</td> 
+                    <td>Better to arrive late than not to come at all</td>
+                    <td>by itself</td>
+                </tr>
+                <tr>
+                    <td>Bite the bullet</td>
+                    <td>To get sth over with because it is inevitable</td>
+                    <td >As part of a sentence</td>
+                </tr>
+                <tr></tr>
+            </tbody>
+            
+            <tfoot>
+                    <td colspan="1">Beat around the bush</td>
+                    <td>Avoid saying what you mean, usually because it is uncomfortable</td>
+                    <td colspan="1">As part of a sentence</td>
+            </tfoot>
         </table>
         
         <form action="mailto:hung.lt205155@sis.hust.edu.vn" method="post" enctype="text/plain">
             <h3>Sign in</h3>
-            <label for="username">Username:</label> 
+            <label for="username" required >Username:</label> 
                 <input type="text" id="username" name="Username" size="15" maxlength="30" /><br>
                 <br>
-            <label for="pass">Password:</label>
+            <label for="pass" required >Password:</label>
                 <input type="text" id="pass" name="Password" size="15" maxlength="30" />
         
             <h3>Give your comments</h3>

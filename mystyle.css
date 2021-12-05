@@ -1,0 +1,24 @@
+    
+    body {
+        font-family: sans-serif;
+        background-color: rgba(254, 196, 87, 0.783);
+    }
+    .center{
+        text-align: center;
+        margin: auto;
+    }
+    .sliver-bg{
+        background-color: white;
+        margin: auto;
+        margin-bottom: 40px;
+        margin-top: 40px;
+        width: 600px;
+        font-size: 40px;
+    }
+    .table{
+        background-color: burlywood;
+        border-style: groove;
+        border-width: 1px;
+        border-color: black;
+        box-shadow: 5px 5px 10px rgba(0, 0,0,0.29);
+    }
